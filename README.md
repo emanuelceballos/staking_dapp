@@ -1,14 +1,14 @@
 # STAKING DAPP
 
 This project was bootstrapped with:
-- `create-react-app`
-- `truffle init`
+* `create-react-app`
+* `truffle init`
 
 ## Restore packages
 
 In the project root's directory, run:
 
-- `npm install`
+* `npm install`
 
 ## Deploy the Smart Contracts
 
@@ -16,11 +16,13 @@ You need to be connected to any EVM compatible blockchain in order to deploy the
 
 In the `truffle-config.js` configuration file, update the *development* network with your Ganache settings. Then run:
 
-- `truffle compile`
-- `truffle migrate`
+* `truffle compile`
+* `truffle migrate`
+* `truffle exec .\scripts\issue-token.js # will issue dummy tokens to the users`
 
 ## Run the project
-- `npm start`
+
+* `npm start`
 
 This runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.

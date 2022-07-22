@@ -17,5 +17,5 @@ module.exports = async function (deployer, network, accounts) {
     await dummyToken.transfer(stakingDapp.address, '1000000000000000000000000');
 
     // now we transfer 100 Tether to a user account
-    await tetherToken.transfer(accounts[0], '100000000000000000000');
+    await tetherToken.transfer(accounts[1], '100000000000000000000');
 };

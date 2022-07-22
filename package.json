@@ -2,15 +2,22 @@
   "name": "staking_dapp",
   "version": "1.0.0",
   "private": true,
+  "author": {
+    "email": "ema.ceballos@gmail.com",
+    "name": "Emanuel Ceballos"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.2.0",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.4.0",
     "react-dom": "^18.2.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^2.1.4",
-    "web3": "^1.7.4"
+    "web3": "^1.7.4",
+    "web3-utils": "^1.7.4"
   },
   "scripts": {
     "start": "react-scripts start",
